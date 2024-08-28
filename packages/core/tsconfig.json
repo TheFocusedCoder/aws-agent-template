@@ -1,0 +1,17 @@
+{
+    "extends": "@tsconfig/node20/tsconfig.json",
+    "compilerOptions": {
+      "module": "NodeNext",
+  
+      "baseUrl": ".",
+      "paths": {
+        "@agents/*": ["../../packages/core/src/agents/*"],
+        "@utils/*": ["../../packages/utils/src/*"],
+      }, 
+     //"esModuleInterop": true
+    }, 
+    "include": [
+      "**/*.test.ts", 
+      "**/*.ts"
+,   ]
+}

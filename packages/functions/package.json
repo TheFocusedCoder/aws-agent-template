@@ -1,0 +1,11 @@
+{
+    "name": "@aws-agent-template/functions",
+    "version": "0.0.0",
+    "dependencies": {
+      "@aws-agent-template/core": "*"
+    },
+    "devDependencies": {
+      "@types/aws-lambda": "^8.10.137"
+    }
+  }
+  

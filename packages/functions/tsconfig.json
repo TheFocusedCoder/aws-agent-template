@@ -2,7 +2,7 @@
     "compilerOptions": {
       "baseUrl": ".",
       "paths": {
-        "@agents/*": ["../../packages/core/src/agents/*"], 
+        "@agent-plane/*": ["../../packages/core/src/agent-plane/*"], 
         "@utils/*": ["../../packages/utils/*"],
       },
       "esModuleInterop": true

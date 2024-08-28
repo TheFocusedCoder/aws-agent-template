@@ -1,4 +1,4 @@
-import { executorLambda } from "./executors";
+import { executorLambda } from "./content-agent-executor";
 
 const bedrockAgentRole = new aws.iam.Role("BedrockAgentRole", {
     assumeRolePolicy: JSON.stringify({

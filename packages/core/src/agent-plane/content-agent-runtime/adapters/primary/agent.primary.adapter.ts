@@ -3,8 +3,8 @@ import {
     AgentInputEvent, 
     AgentResponse,
     ContentRequestSchema
-} from "@agents/content-agent/metadata/agent"
-import { agentGenerateUseCase } from "@agents/content-agent/usecases/generate.usecase"
+} from "@agent-plane/content-agent/metadata/agent"
+import { agentGenerateUseCase } from "@agent-plane/content-agent/usecases/generate.usecase"
 
 export const agentHandler = async (event: AgentInputEvent): Promise<AgentResponse> => {
     const functionName = event.function;

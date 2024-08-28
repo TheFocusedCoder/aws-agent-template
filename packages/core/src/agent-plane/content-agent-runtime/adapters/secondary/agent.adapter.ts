@@ -4,7 +4,7 @@ import {
     InvokeModelCommand, 
 
 } from "@aws-sdk/client-bedrock-runtime";
-import { ContentGenerationCommand } from "@agents/content-agent/metadata/agent";
+import { ContentGenerationCommand } from "@agent-plane/content-agent-runtime/metadata/agent";
 
 //@ts-ignore
 import { Resource } from "sst";

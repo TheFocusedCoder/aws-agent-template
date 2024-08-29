@@ -3,7 +3,7 @@
 export default $config({
     app(input) {
       return {
-        name: "agentic-backend-template",
+        name: "aws-backend-template",
         removal: input?.stage === "production" ? "retain" : "remove",
         
         home: "aws",

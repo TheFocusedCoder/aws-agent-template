@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@agent-plane/*": ["../../packages/core/src/agent-plane/*"], 
+        "@utils/*": ["../../packages/utils/*"],
+      },
+      "esModuleInterop": true
+    }, 
+  
+  }
